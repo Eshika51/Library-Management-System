@@ -1,0 +1,31 @@
+  html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      /* Use your image as background */
+      background-image: url('../images/bg2.jpg');
+      background-size: cover;       /* Cover entire screen */
+      background-position: center;  /* Center the image */
+      background-repeat: no-repeat; /* No repeat */
+      height: 100vh;                /* Full viewport height */
+      width: 100vw;                 /* Full viewport width */
+    }
+    
+    .container{
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+    }
+    
+    .frm{
+      border : 3px solid;
+      padding : 5%;
+      width : 100%;
+    }
+    
+    
